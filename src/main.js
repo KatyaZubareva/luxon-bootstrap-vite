@@ -1,11 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import './style.scss';
-import { DateTime } from "luxon";
-import Modal from "bootstrap/js/dist/modal"; 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { DateTime } from 'luxon';
 
 const showTimeBtn = document.getElementById('showTimeBtn');
 const modalBody = document.getElementById('modalBody');
-const timeModal = new Modal(document.getElementById('timeModal'));
+const timeModal = new bootstrap.Modal(document.getElementById('timeModal'));
 
 showTimeBtn.addEventListener('click', () => {
   const now = DateTime.now().toFormat("dd.MM.yyyy HH:mm:ss");

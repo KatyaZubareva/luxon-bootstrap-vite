@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "bootstrap": "^5.3.2",
+    "bootstrap": "^5.3.8",
     "luxon": "^3.4.0"
   },
   "devDependencies": {
