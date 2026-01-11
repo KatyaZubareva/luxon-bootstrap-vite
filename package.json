@@ -1,6 +1,7 @@
 {
-  "name": "luxon-bootstrap-vite",
+  "name": "my-bootstrap-app",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,6 +12,6 @@
     "luxon": "^3.4.0"
   },
   "devDependencies": {
-    "vite": "^4.3.9"
+    "vite": "^5.0.0"
   }
 }
