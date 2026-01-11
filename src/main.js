@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import './style.scss';
 import { DateTime } from "luxon";
 import Modal from "bootstrap/js/dist/modal"; 
 
